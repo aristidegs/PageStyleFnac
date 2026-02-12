@@ -132,7 +132,7 @@ function autreclicBoutonL(){
     setTimeout(function(){imgDiv2.classList.remove("imgDivScriptL")},200)
 
     if(i===-1){diaPosition2[i+1].classList.remove("divselect")
-        i=(imgDiapo2.length)-1
+        i=(autreDiapo.length)-1
         imgDiv2.src=autreDiapo[i]
         }
    
