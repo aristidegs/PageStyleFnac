@@ -1,0 +1,631 @@
+
+header{
+    position:sticky;
+    top:0;
+    z-index:1; 
+}
+
+
+
+
+
+.divHeader{
+    
+    
+    border:solid;
+    height:150px;
+    width:100%;
+    margin-bottom:10px;
+    top:0;
+    background-color: #e8ae1d;
+   
+    
+}
+
+.divMain{
+
+
+width:100%;
+display:grid;
+grid-template-columns:15% 85%;
+grid-template-rows: 100% 100%;
+gap:10px;
+position:relative;
+top:0;
+
+}
+
+
+
+
+.gridmainR{
+
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows : 50% 50%;
+    gap:10px;
+
+
+
+
+}
+
+
+
+.gridmainR2{
+
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows : 50% 50%;
+    gap:10px;
+
+
+
+
+}
+
+.gridmainR3{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows:100%;
+    gap:10px;
+}
+
+
+.gridmainR4{
+
+    display:grid;
+    grid-template-columns:25% 25% 25% 25%;
+    grid-template-rows : 100%;
+    gap:10px;
+
+
+
+
+}
+
+.gridmainR5{
+
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows : 100%;
+    gap:10px;
+
+
+
+
+}
+
+.gridmainR6{
+
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows : 100%;
+    gap:10px;
+
+
+
+
+}
+
+.gridmainR7{
+
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows : 100%;
+    gap:10px;
+
+
+
+
+}
+
+.gridmainR8{
+
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows : 100%;
+    gap:10px;
+
+
+
+
+}
+
+.gridmainR9{
+
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+    grid-template-rows : 100%;
+    gap:10px;
+
+
+
+
+}
+
+.gridmainR10{
+
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows : 100%;
+    gap:10px;
+
+
+
+
+}
+
+
+.colonne1MainR{
+        grid-column:1/3;
+
+    }
+
+.colonne2MainR8{
+    grid-column:2/5;
+}
+
+
+.gridmainR div{
+
+    width:100%;
+    background-color: #2fdede;
+    height:200px;
+    
+}
+
+
+.gridmainR2 div{
+
+    width:100%;
+     background-color: #2fdede;
+    height:200px;
+}
+
+.gridmainR3 div{
+
+    width:100%;
+     background-color: #2fdede;
+    height:200px;
+}
+
+.gridmainR4 div{
+
+    width:100%;
+     background-color: #2fdede;
+    height:200px;
+}
+
+.gridmainR5 div{
+
+    width:100%;
+     background-color: #2fdede;
+    height:200px;
+}
+
+
+.gridmainR6 div{
+
+    width:100%;
+     background-color: #2fdede;
+    height:200px;
+}
+
+.gridmainR7 div{
+
+    width:100%;
+     background-color: #2fdede;
+    height:200px;
+}
+
+.gridmainR8 div{
+     background-color: #2fdede;
+    height:200px;
+
+    width:100%;
+}
+
+.gridmainR9 div{
+
+    width:100%;
+     background-color: #2fdede;
+    height:200px;
+}
+
+.gridmainR10 div{
+
+    width:100%;
+     background-color: #2fdede;
+    height:200px;
+}
+
+
+
+
+
+@media screen and (max-width:800px){
+
+
+.gridmainR{
+
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows : 33% 33% 33%;
+    gap:10px;
+
+}
+
+
+
+.gridmainR2{
+
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows :25% 25% 25% 25%;
+    gap:10px;
+
+}
+
+.gridmainR3{
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows:50% 50% ;
+    gap:10px;
+}
+
+.gridmainR4{
+
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows : 50% 50%;
+    gap:10px;
+
+}
+
+.gridmainR5{
+
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows : 50% 50%;
+    gap:10px;
+
+
+
+
+}
+
+.gridmainR6{
+
+    display:grid;
+    grid-template-columns:33% 33% 33% ;
+    grid-template-rows : 50% 50%;
+    gap:10px;
+
+
+
+
+}
+
+.gridmainR9{
+
+    display:grid;
+    grid-template-columns:33% 33% 33%;
+    grid-template-rows : 50% 50%;
+    gap:10px;
+
+
+
+
+}
+
+
+
+}
+
+@media screen and (max-width:600px){
+
+    .gridmainR6{
+
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows :33% 33% 33%;
+    gap:10px;
+}
+
+.gridmainR9{
+
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows : 33% 33% 33%;
+    gap:10px;
+
+
+
+
+}
+
+
+}
+
+
+ .colonne1MainR{
+        grid-column:1/3;
+
+    }
+
+
+
+.divtopmainR{
+    width:100%;
+    height:150px;
+    margin-bottom:10px;
+   /* display:none;*/
+}
+
+
+.mainL{
+    overflow:auto;
+    position:fixed;
+    width:15%;
+    height:70%;
+    
+    
+   
+}
+
+.mainR{
+    
+    width:550%;
+    margin-left:110%;
+}
+.divMainL{
+    
+    width:0%;
+    height:100%;
+    background-color: #2fdede;
+    position:fixed;
+    top:28%;
+    margin-left:15%;
+    transition:width 500ms,opacity 500ms;
+    opacity:0;
+    z-index:1;
+
+    
+    
+  
+  
+}
+
+
+
+
+main{position:relative;}
+
+
+.divMainLscript{
+    
+    width:75%;
+    height:100%;
+    background-color: #FFFFFF;
+    position:fixed;
+    top:28%;
+    margin-left:15%;
+    transition:width 500ms,opacity 500ms;
+    opacity:1;
+    z-index:1;
+    overflow:auto;
+}
+
+
+
+.divFermer{
+    text-align: right;
+    display:none;
+    cursor:pointer;
+}
+
+.divFermerScript{
+     text-align: right;
+    cursor:pointer;
+}
+
+
+
+
+
+
+/*diapo css*/
+
+
+
+@media screen and (max-width:800px){
+
+.imgR{
+    position:absolute;
+    left:92%;
+    color:#FFFFFF;
+    font-size:50px;
+    cursor:pointer;
+    z-index: 1;
+    
+
+}
+    
+
+
+
+
+.imgL{
+    position:absolute;
+    right:77%;
+    color:#FFFFFF;
+    font-size:50px;
+    cursor:pointer;
+    z-index: 1;
+    
+
+    
+}
+
+
+
+
+
+
+.imgR2{
+    position:absolute;
+    left:92%;
+    color:#FFFFFF;
+    font-size:50px;
+    cursor:pointer;
+    z-index: 1;
+    
+
+}
+    
+
+
+
+
+.imgL2{
+    position:absolute;
+    right:77%;
+    color:#FFFFFF;
+    font-size:50px;
+    cursor:pointer;
+    z-index: 1;
+    
+
+    
+}
+
+
+
+}
+
+
+
+.imgDiv{
+    width:100%;
+    height:150px;
+    position:relative;
+
+       
+}
+
+.imgDiv2{
+    width:100%;
+    height:150px;
+    position:relative;
+
+       
+}
+
+
+.imgDivScriptR{
+    transition:opacity 50ms;
+    position:relative;
+    right:10%;
+    opacity:0
+}
+
+.imgDivScriptL{
+    transition:opacity 50ms;
+    position:relative;
+    left:10%;
+    opacity:0
+}
+
+.diapoDiv{
+
+    display : flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+
+}
+
+
+
+.diaposition{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.diaposition2{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:10px;
+
+}
+
+.diaposition div{
+    border:solid;
+    width:10px;
+    height:10px;
+    transition:transform 200ms ;
+    border-radius:15px;
+    opacity:0.6;
+
+}
+
+.diaposition2 div{
+    border:solid;
+    width:10px;
+    height:10px;
+    transition:transform 200ms ;
+    border-radius:15px;
+    opacity:0.6;
+
+}
+
+
+.imgR{
+   
+    font-size:50px;
+    cursor:pointer;
+    
+
+}
+    
+
+
+
+
+.imgL{
+    font-size:50px;
+    cursor:pointer;
+    
+}
+
+.imgR2{
+   
+    font-size:50px;
+    cursor:pointer;
+    
+
+}
+    
+
+
+
+
+.imgL2{
+    font-size:50px;
+    cursor:pointer;
+    
+}
+
+
+.divselect{
+    border:solid;
+    width:10px;
+    height:10px;
+    transform:scale(1.5)
+}
