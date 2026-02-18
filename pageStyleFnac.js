@@ -1,4 +1,4 @@
-let lienmainL=document.querySelectorAll(".lienmainL")
+let lienmainL=document.querySelectorAll(".lienmainL") 
 let divMainL=document.querySelector(".divMainL")
 let lienFermer=document.querySelector(".lienFermer")
 let divFermer=document.querySelector(".divFermer")
