@@ -12,7 +12,11 @@ header{
 .divHeader{
     
     
+<<<<<<< HEAD
     border:solid;
+=======
+    
+>>>>>>> modif
     height:150px;
     width:100%;
     margin-bottom:10px;
@@ -24,14 +28,21 @@ header{
 
 .divMain{
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> modif
 width:100%;
 display:grid;
 grid-template-columns:15% 85%;
 grid-template-rows: 100% 100%;
 gap:10px;
+<<<<<<< HEAD
 position:relative;
 top:0;
+=======
+
+>>>>>>> modif
 
 }
 
@@ -366,19 +377,38 @@ top:0;
 
 .mainL{
     overflow:auto;
+<<<<<<< HEAD
     position:fixed;
     width:15%;
     height:70%;
+=======
+    position:sticky;
+    top:0%;
+    height:50%;
+    opacity:0%;
+    
+
+
+>>>>>>> modif
     
     
    
 }
 
+<<<<<<< HEAD
 .mainR{
     
     width:550%;
     margin-left:110%;
 }
+=======
+
+.mainR{
+    
+    margin:auto;
+}
+    
+>>>>>>> modif
 .divMainL{
     
     width:0%;
@@ -408,6 +438,10 @@ main{position:relative;}
     width:75%;
     height:100%;
     background-color: #FFFFFF;
+<<<<<<< HEAD
+=======
+    border:solid #2fdede;
+>>>>>>> modif
     position:fixed;
     top:28%;
     margin-left:15%;
@@ -443,7 +477,11 @@ main{position:relative;}
 
 .imgR{
     position:absolute;
+<<<<<<< HEAD
     left:92%;
+=======
+    left:80%;
+>>>>>>> modif
     color:#FFFFFF;
     font-size:50px;
     cursor:pointer;
@@ -458,7 +496,11 @@ main{position:relative;}
 
 .imgL{
     position:absolute;
+<<<<<<< HEAD
     right:77%;
+=======
+    right:62%;
+>>>>>>> modif
     color:#FFFFFF;
     font-size:50px;
     cursor:pointer;
@@ -475,7 +517,11 @@ main{position:relative;}
 
 .imgR2{
     position:absolute;
+<<<<<<< HEAD
     left:92%;
+=======
+    left:80%;
+>>>>>>> modif
     color:#FFFFFF;
     font-size:50px;
     cursor:pointer;
@@ -490,7 +536,11 @@ main{position:relative;}
 
 .imgL2{
     position:absolute;
+<<<<<<< HEAD
     right:77%;
+=======
+    right:62%;
+>>>>>>> modif
     color:#FFFFFF;
     font-size:50px;
     cursor:pointer;
@@ -628,4 +678,116 @@ main{position:relative;}
     width:10px;
     height:10px;
     transform:scale(1.5)
+<<<<<<< HEAD
+=======
+}
+.coverMain{
+
+    width:0%;
+    height:0%;
+    transition:width 200ms;
+}
+
+.coverMainScript{
+    position:absolute;
+    top:0%;
+    width:100%;
+    height:100%;
+    z-index:1;
+    border:solid;
+    background-color: #2fdede;
+    transition:width 200ms;
+
+}
+
+    .lienHeader{opacity:0;}
+    .lienHeaderScript{display:none;}
+    .lienFermerHeader{opacity:0;position:absolute;left:0px;display:none;}
+    .lienFermerHeaderScript{opacity:1;position:absolute;left:0px;}
+
+@media screen and (max-width:500px){
+    
+    .lienHeader{opacity:1}
+    .divMain{display:block;}
+    .mainL{display:none;}
+    .mainlScroll{display:none;}
+
+    .imgR{
+    position:absolute;
+    left:90%;
+    color:#FFFFFF;
+    font-size:50px;
+    cursor:pointer;
+    z-index: 1;
+    
+
+}
+    
+
+
+
+
+.imgL{
+    position:absolute;
+    right:90%;
+    color:#FFFFFF;
+    font-size:50px;
+    cursor:pointer;
+    z-index: 1;
+    
+
+    
+}
+
+   .imgR2{
+    position:absolute;
+    left:90%;
+    color:#FFFFFF;
+    font-size:50px;
+    cursor:pointer;
+    z-index: 1;
+    
+
+}
+    
+
+
+
+
+.imgL2{
+    position:absolute;
+    right:90%;
+    color:#FFFFFF;
+    font-size:50px;
+    cursor:pointer;
+    z-index: 1;
+    
+
+    
+}
+
+   
+    
+    
+}
+
+
+.mainWrap{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+   
+}
+
+
+.mainlScroll{
+    position:fixed;
+    width:15%;
+    overflow:auto;
+    height:60%;
+    top:35%;
+    z-index:1;
+   
+
+>>>>>>> modif
 }

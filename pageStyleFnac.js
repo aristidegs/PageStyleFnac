@@ -132,7 +132,11 @@ function autreclicBoutonL(){
     setTimeout(function(){imgDiv2.classList.remove("imgDivScriptL")},200)
 
     if(i===-1){diaPosition2[i+1].classList.remove("divselect")
+<<<<<<< HEAD
         i=(autreDiapo.length)-1
+=======
+        i=(imgDiapo2.length)-1
+>>>>>>> modif
         imgDiv2.src=autreDiapo[i]
         }
    
@@ -150,3 +154,33 @@ imgR2.addEventListener("click",function(){autreclicBoutonR()})
 imgL2.addEventListener("click",function(){autreclicBoutonL()})
 
 /*setInterval(function(){autreclicBoutonR()},10000)*/
+<<<<<<< HEAD
+=======
+
+
+
+let lienHeader=document.querySelector(".lienHeader")
+let lienFermerHeader=document.querySelector(".lienFermerHeader")
+let coverMain=document.querySelector(".coverMain")
+let mainlHTML=document.querySelector(".mainL").innerHTML
+
+
+lienHeader.addEventListener("click",function(){
+    coverMain.classList.replace("coverMain","coverMainScript")
+    lienHeader.classList.replace("lienHeader","lienHeaderScript")
+    lienFermerHeader.classList.replace("lienFermerHeader","lienFermerHeaderScript")
+ 
+    coverMain.innerHTML=mainlHTML
+    })
+
+
+
+lienFermerHeader.addEventListener("click",function(){
+    coverMain.classList.replace("coverMainScript","coverMain")
+    lienHeader.classList.replace("lienHeaderScript","lienHeader")
+    lienFermerHeader.classList.replace("lienFermerHeaderScript","lienFermerHeader")
+    
+    coverMain.innerHTML=""
+})
+
+>>>>>>> modif
