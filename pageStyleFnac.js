@@ -132,11 +132,7 @@ function autreclicBoutonL(){
     setTimeout(function(){imgDiv2.classList.remove("imgDivScriptL")},200)
 
     if(i===-1){diaPosition2[i+1].classList.remove("divselect")
-<<<<<<< HEAD
-        i=(autreDiapo.length)-1
-=======
         i=(imgDiapo2.length)-1
->>>>>>> modif
         imgDiv2.src=autreDiapo[i]
         }
    
@@ -154,8 +150,6 @@ imgR2.addEventListener("click",function(){autreclicBoutonR()})
 imgL2.addEventListener("click",function(){autreclicBoutonL()})
 
 /*setInterval(function(){autreclicBoutonR()},10000)*/
-<<<<<<< HEAD
-=======
 
 
 
@@ -183,4 +177,3 @@ lienFermerHeader.addEventListener("click",function(){
     coverMain.innerHTML=""
 })
 
->>>>>>> modif

@@ -12,11 +12,7 @@ header{
 .divHeader{
     
     
-<<<<<<< HEAD
-    border:solid;
-=======
     
->>>>>>> modif
     height:150px;
     width:100%;
     margin-bottom:10px;
@@ -28,21 +24,7 @@ header{
 
 .divMain{
 
-<<<<<<< HEAD
-
-=======
->>>>>>> modif
-width:100%;
-display:grid;
-grid-template-columns:15% 85%;
-grid-template-rows: 100% 100%;
 gap:10px;
-<<<<<<< HEAD
-position:relative;
-top:0;
-=======
-
->>>>>>> modif
 
 }
 
@@ -377,11 +359,6 @@ top:0;
 
 .mainL{
     overflow:auto;
-<<<<<<< HEAD
-    position:fixed;
-    width:15%;
-    height:70%;
-=======
     position:sticky;
     top:0%;
     height:50%;
@@ -389,26 +366,17 @@ top:0;
     
 
 
->>>>>>> modif
     
     
    
 }
 
-<<<<<<< HEAD
-.mainR{
-    
-    width:550%;
-    margin-left:110%;
-}
-=======
 
 .mainR{
     
     margin:auto;
 }
     
->>>>>>> modif
 .divMainL{
     
     width:0%;
@@ -438,10 +406,7 @@ main{position:relative;}
     width:75%;
     height:100%;
     background-color: #FFFFFF;
-<<<<<<< HEAD
-=======
     border:solid #2fdede;
->>>>>>> modif
     position:fixed;
     top:28%;
     margin-left:15%;
@@ -477,11 +442,7 @@ main{position:relative;}
 
 .imgR{
     position:absolute;
-<<<<<<< HEAD
-    left:92%;
-=======
     left:80%;
->>>>>>> modif
     color:#FFFFFF;
     font-size:50px;
     cursor:pointer;
@@ -496,11 +457,7 @@ main{position:relative;}
 
 .imgL{
     position:absolute;
-<<<<<<< HEAD
-    right:77%;
-=======
     right:62%;
->>>>>>> modif
     color:#FFFFFF;
     font-size:50px;
     cursor:pointer;
@@ -517,11 +474,7 @@ main{position:relative;}
 
 .imgR2{
     position:absolute;
-<<<<<<< HEAD
-    left:92%;
-=======
     left:80%;
->>>>>>> modif
     color:#FFFFFF;
     font-size:50px;
     cursor:pointer;
@@ -536,11 +489,7 @@ main{position:relative;}
 
 .imgL2{
     position:absolute;
-<<<<<<< HEAD
-    right:77%;
-=======
     right:62%;
->>>>>>> modif
     color:#FFFFFF;
     font-size:50px;
     cursor:pointer;
@@ -678,8 +627,6 @@ main{position:relative;}
     width:10px;
     height:10px;
     transform:scale(1.5)
-<<<<<<< HEAD
-=======
 }
 .coverMain{
 
@@ -789,5 +736,4 @@ main{position:relative;}
     z-index:1;
    
 
->>>>>>> modif
 }
