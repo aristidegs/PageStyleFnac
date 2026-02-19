@@ -1,4 +1,4 @@
- 
+
 header{
     position:sticky;
     top:0;
@@ -24,7 +24,12 @@ header{
 
 .divMain{
 
+width:100%;
+display:grid;
+grid-template-columns:15% 85%;
+grid-template-rows: 100% 100%;
 gap:10px;
+
 
 }
 
