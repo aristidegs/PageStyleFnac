@@ -8,26 +8,27 @@ header{
 
 
 
-
 .divHeader{
     
     
     
-    height:150px;
+   /* height:150px;*/
+   height:100%;
     width:100%;
     margin-bottom:10px;
-    top:0;
-    background-color: #e8ae1d;
+    /*top:0;*/
+   /* background-color: #e8ae1d;*/
    
     
 }
+
 
 .divMain{
 
 width:100%;
 display:grid;
 grid-template-columns:15% 85%;
-grid-template-rows: 100% 100%;
+grid-template-rows: 100%;
 gap:10px;
 
 
@@ -42,6 +43,8 @@ gap:10px;
     grid-template-columns:33% 33% 33%;
     grid-template-rows : 50% 50%;
     gap:10px;
+    margin-top:10%;
+    width:100%;
 
 
 
@@ -54,7 +57,7 @@ gap:10px;
 
     display:grid;
     grid-template-columns:25% 25% 25% 25%;
-    grid-template-rows : 50% 50%;
+    grid-template-rows : 100%;
     gap:10px;
 
 
@@ -67,6 +70,7 @@ gap:10px;
     grid-template-columns:50% 50%;
     grid-template-rows:100%;
     gap:10px;
+    margin-top:10%;
 }
 
 
@@ -168,8 +172,8 @@ gap:10px;
 .gridmainR div{
 
     width:100%;
-    background-color: #2fdede;
-    height:200px;
+    /*background-color: #2fdede;*/
+    height:100%;
     
 }
 
@@ -177,65 +181,72 @@ gap:10px;
 .gridmainR2 div{
 
     width:100%;
-     background-color: #2fdede;
-    height:200px;
+     /*background-color: #2fdede;*/
+    height:100%;
 }
 
 .gridmainR3 div{
 
-    width:100%;
+    /*width:100%;
      background-color: #2fdede;
-    height:200px;
+    height:200px;*/
+    height:100%;
 }
 
 .gridmainR4 div{
 
     width:100%;
-     background-color: #2fdede;
-    height:200px;
+     /*background-color: #2fdede;
+    height:200px;*/
+    height:100%;
 }
 
 .gridmainR5 div{
 
     width:100%;
-     background-color: #2fdede;
-    height:200px;
+    /*background-color: #2fdede;
+    height:200px;*/
+    height:100%;
 }
 
 
 .gridmainR6 div{
 
     width:100%;
-     background-color: #2fdede;
-    height:200px;
+     /*background-color: #2fdede;
+    height:200px;*/
+    height:100%;
 }
 
 .gridmainR7 div{
 
     width:100%;
-     background-color: #2fdede;
-    height:200px;
+     /*background-color: #2fdede;
+    height:200px;*/
+    height:100%;
 }
 
 .gridmainR8 div{
-     background-color: #2fdede;
-    height:200px;
-
+     /*background-color: #2fdede;
+    height:200px;*/
+    height:100%;
     width:100%;
 }
 
 .gridmainR9 div{
 
     width:100%;
-     background-color: #2fdede;
-    height:200px;
+     /*background-color: #2fdede;
+    height:200px;*/
+    height:100%;
 }
 
 .gridmainR10 div{
 
     width:100%;
-     background-color: #2fdede;
-    height:200px;
+     /*background-color: #2fdede;
+    height:200px;*/
+    height:100%;
 }
 
 
@@ -377,9 +388,13 @@ gap:10px;
 }
 
 
-.mainR{
-    
-    margin:auto;
+body{
+    width:95%;
+}
+
+.imgDivDiapo{
+width:100%;
+height : 60%;
 }
     
 .divMainL{
@@ -512,7 +527,7 @@ main{position:relative;}
 
 .imgDiv{
     width:100%;
-    height:150px;
+    height:100%;
     position:relative;
 
        
@@ -520,7 +535,7 @@ main{position:relative;}
 
 .imgDiv2{
     width:100%;
-    height:150px;
+    height:100%;
     position:relative;
 
        
@@ -594,6 +609,9 @@ main{position:relative;}
    
     font-size:50px;
     cursor:pointer;
+    border-radius:30px;
+    background-color:black ;
+    opacity:50%;
     
 
 }
@@ -605,6 +623,9 @@ main{position:relative;}
 .imgL{
     font-size:50px;
     cursor:pointer;
+    border-radius:30px;
+    background-color:black ;
+    opacity:50%;
     
 }
 
@@ -659,7 +680,8 @@ main{position:relative;}
 
 @media screen and (max-width:500px){
     
-    .lienHeader{opacity:1}
+    .lienHeader{opacity:1;position:absolute;top:0;}
+    .lienHeader{position:absolute;top:0;}
     .divMain{display:block;}
     .mainL{display:none;}
     .mainlScroll{display:none;}
@@ -671,7 +693,16 @@ main{position:relative;}
     font-size:50px;
     cursor:pointer;
     z-index: 1;
-    
+
+
+  
+.imgDiv{
+    width:100%;
+    height:110%;
+    position:relative;
+
+       
+}
 
 }
     
@@ -718,10 +749,22 @@ main{position:relative;}
     
 }
 
-   
-    
+.divlogo{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    background-color: #FFFFFF;
+    width:110%;
+    padding:5px;
     
 }
+
+
+
+    
+}
+
+
 
 
 .mainWrap{
@@ -734,7 +777,7 @@ main{position:relative;}
 
 .mainlScroll{
     position:fixed;
-    width:15%;
+    width:10%;
     overflow:auto;
     height:60%;
     top:35%;
@@ -742,3 +785,4 @@ main{position:relative;}
    
 
 }
+

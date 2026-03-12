@@ -28,11 +28,11 @@ let imgL=document.querySelector(".imgL")
 let imgR=document.querySelector(".imgR")
 let imgL2=document.querySelector(".imgL2")
 let imgR2=document.querySelector(".imgR2")
-let imgDiv=document.querySelector(".imgDiv")
+let imgDiv=document.querySelector(".imgDivDiapo")
 let imgDiv2=document.querySelector(".imgDiv2")
 let diaPosition=document.querySelectorAll(".diaposition div")
 let diaPosition2=document.querySelectorAll(".diaposition2 div")
-let imgDiapo=["img_0ac57a.jpeg","img_31f9d8.jpeg","img_159eba.jpeg","img_c50a6e.jpeg"]
+let imgDiapo=["img-page-accueil/2026-03-04-154122.png","img-page-accueil/2026-03-04-154215.png","img-page-accueil/2026-03-04-154241.png","img-page-accueil/2026-03-04-154307.png"]
 i=0
 imgDiv.src=imgDiapo[0]
 diaPosition[0].classList.add("divselect")
@@ -92,7 +92,7 @@ imgR.addEventListener("click",function(){clicBoutonR()})
 
 imgL.addEventListener("click",function(){clicBoutonL()})
 
-/*setInterval(function(){clicBoutonR()},10000)*/
+setInterval(function(){clicBoutonR()},10000)
 
 
 
